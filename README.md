@@ -61,12 +61,14 @@ Before running this project, ensure you have the following installed. This are m
 5. Open your terminal in Laragon and go into the project directory. In my case it is C:\laragon\www\deber2. It might be deber2-main depending on how you imported the project.
 <img width="381" height="52" alt="Captura de pantalla 2025-11-28 004117" src="https://github.com/user-attachments/assets/6ecacea1-b702-476a-89d7-6dd726214460" />
 
-6. Once imported the project, run
+6. You got to make a copy of the .env.example and rename the copy as .env so Laravel knows which DB to create and/or use
+
+7. Once imported the project, run
     - composer install
     - php artisan migrate
     - php artisan serve
   
-7. Try de app!!
+8. Try de app!!
 
 THE END!
 
